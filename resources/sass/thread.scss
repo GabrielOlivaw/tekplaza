@@ -1,0 +1,23 @@
+.thread-item {
+	display: flex;
+	flex-direction: row;
+	padding: 30px;
+	cursor: auto;
+}
+
+#thread-buttons {
+	display: block;
+	width: 100%;
+}
+
+.post-author {
+	width: 15%;
+}
+
+.post-content {
+	width: 85%;
+}
+
+.post-content > h5 {
+	margin-bottom: 15px;
+}

@@ -1,0 +1,47 @@
+.thread-element:focus > div {
+	background-color: $accent-color;
+}
+
+.subforum-item {
+	display: flex;
+	flex-direction: row;
+}
+
+.subforum-details {
+	width: 75%;
+}
+
+.subforum-post-count {
+	width: 25%;
+	text-align: right;
+}
+
+#actions-bar {
+	width: 100%;
+	display: block;
+	overflow: auto;
+	margin-bottom: 10px;
+}
+
+#filter-items {
+	width: 30%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+#filter-items input {
+	width: 70%;
+	display: inline-block;
+}
+
+#filter-items button {
+	width: 20%;
+	margin-left: 5px;
+	display:inline-block;
+	background-color: $primary-color;
+}
+
+#filter-items button i {
+	color: $primary-color-text;
+	margin: 0px;
+}

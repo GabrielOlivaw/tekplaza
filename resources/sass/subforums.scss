@@ -1,0 +1,17 @@
+.subforums-item {
+	display: flex;
+	flex-direction: row;
+}
+
+.subforums-details {
+	width: 75%;
+}
+
+.subforums-thread-count {
+	width: 25%;
+	text-align: right;
+}
+
+.subforum-element:focus > div {
+	background-color: $accent-color;
+}
